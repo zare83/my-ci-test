@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git credentialsId: '3eb72975-204a-4257-af24-443e8a6c694f',
+                git credentialsId: 'd69e0610-4535-451f-a874-c62b6a30a9ae',
                     url: 'git@github.com:zare83/my-ci-test.git'
             }
         }
